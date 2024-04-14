@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Panaderia Sueños de Pan</title>
+    <link rel="icon" type="image/png" href="imagenes/Favicon.png" />
+    <meta
+      name="keywords"
+      content="panadería artesanal, Granada, entrega a domicilio"
+    />
+    <meta
+      name="description"
+      content="Pan artesano de masa madre con recetas que han sido cuidadosamente transmitidas de  una generación a otra
+      para asegurarnos de que cada trozo de pan te transporta a otro tiempo. Todo ello entregado de forma cómoda y rápida en tu 
+      domicilio."
+    />
+  </head>
+
+  <body>
+    <h1 class="título">Panadería Sueños de Pan</h1>
+    <div>
+      <img
+        class="pan-blanco"
+        src="imagenes/pan-blanco.jpg"
+        alt="Foto de Panes"
+      />
+    </div>
+    <nav>
+      <br />
+      <ul>
+        <li><a href="index.html#nosotros">Nosotros</a></li>
+        <li><a href="index.html#npanes">Nuestros Panes</a></li>
+        <li><a href="index.html#formulario">Pedidos</a></li>
+        <li><a href="index.html#ubicacion">Dónde Estamos</a></li>
+      </ul>
+    </nav>
+    <br /><br /><br /><br /><br /><br />
+
+    <section ID="nosotros">
+      <h2 class="h2">NOSOTROS</h2>
+      <div>¡Somos una Panaderia familiar con gusto por lo exquisito!</div>
+      <div>
+        Nuestros panes son nuestra carta de presentación donde la tradición y la
+        tecnología se juntan para ofrecer a nuestro público lo mejor con
+        ingredientes de excelente calidad.
+      </div>
+    </section>
+
+    <section id="npanes">
+      <h2 class="h2">NUESTROS PANES</h2>
+
+      <div>Tenemos una variedad de panes para cada ocasión</div>
+
+      <div>Nuestra Selección de Panes:</div>
+      <div>
+        <img
+          class="pan-blanco"
+          src="imagenes/rye-pan-rebanado-mesa.jpg"
+          alt="Cesta-pan"
+        />
+      </div>
+
+      <ul>
+        <li>Barra Gallega</li>
+        <li>Barra Integral</li>
+        <li>Barra Gallega</li>
+        <li>Barra Rústica</li>
+        <li>Baguette</li>
+        <li>Croissant</li>
+        <li>Focaccia de Aceitunas</li>
+        <li>Focaccia de Tomate Seco</li>
+        <li>Hogaza de Arándanos Rojos y Nueces</li>
+        <li>Hogaza de aceitunas negras</li>
+        <li>Hogaza de maíz (sin gluten)</li>
+      </ul>
+    </section>
+
+    <section id="formulario">
+      <h2 class="h2">HAZ TU PEDIDO</h2>
+      <div>
+        Nuestro novedoso sistema de pedidos por subscripción le asegura su pan
+        de cada día. ¡Elige el tuyo!
+      </div>
+      <div>
+        El reparto del pan se hace por las mañanas de lunes a sábados por toda
+        Granada y poblaciones circundantes.
+      </div>
+
+      <section>
+        <h3>SUBSCRIPCIONES DE SUEÑOS DE PAN</h3>
+        <div class="container">
+          <div class="card">
+            <h5 class="alcazaba">ALCAZABA</h5>
+            <p>2 Barras de pan diarias de lunes a sábados</p>
+            <p class="precio">36€ al mes</p>
+          </div>
+          <div class="card">
+            <h5 class="alameda">ALAMEDA</h5>
+            <p>3 Barras de pan diarias de lunes a sábados</p>
+            <p class="precio">60€ al mes</p>
+          </div>
+          <div class="card">
+            <h5 class="algarrobo">ALGARROBO</h5>
+            <p>1 Barra de pan diaria de lunes a sábados</p>
+            <p class="precio">24€ al mes</p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <p class="subs">Subscríbete rellenando el siguiente formulario</p>
+      </section>
+
+      <form class="form" action="#" method="get">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            name="Nombre"
+            id="nombre"
+            placeholder="Introduce tu nombre"
+          /><br />
+          <label for="apellidos">Apellidos</label>
+          <input
+            type="text"
+            name="Apellidos"
+            id="apellidos"
+            placeholder="Introduce tus apellidos"
+          /><br />
+          <label for="direccion">Dirección</label>
+          <input
+            type="text"
+            name="Dirección"
+            id="direccion"
+            placeholder="Introduce tu dirección"
+          /><br />
+          <label for="telefono">Teléfono</label>
+          <input
+            type="text"
+            name="Telefono"
+            id="telefono"
+            placeholder="Introduce tu teléfono"
+          />
+        </div>
+
+        <div>
+          <label>Población</label>
+          <select name="poblacion" id="pueblo">
+            <option value="armilla">Armilla</option>
+            <option value="zubia">La Zubia</option>
+            <option value="huetorvega">Huetor Vega</option>
+            <option value="gojar">Gójar</option>
+            <option value="monachil">Monachil</option>
+            <option value="ogijares">Ogíjares</option>
+          </select>
+        </div>
+        <div>
+          <label>Tipo de Subscripción: </label>
+          <label><input type="checkbox" name="alameda" />Alameda</label>
+          <label><input type="checkbox" name="alcazaba" />Alcazaba</label>
+          <label><input type="checkbox" name="algarrobo" />Algarrobo</label>
+        </div>
+        <div>
+          <textarea
+            name="comentario"
+            id="comentario"
+            placeholder="Ingrese el tipo de pan que quiere recibir"
+            cols="70"
+            rows="10"
+          ></textarea>
+        </div>
+        <div>
+          <label>Elige franja horaria de reparto: </label>
+          <select name="Horario" id="horario">
+            <option value="horario1">De 8:30 a 10:30</option>
+            <option value="horario2">De 10:30 a 12:30</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="ubicacion">
+      <h2 class="h2">DÓNDE ESTAMOS</h2>
+      <div>Nos encontramos en el Realejo. ¡Ven y visítanos!</div>
+      <div>Dirección: Calle Campo del Príncipe Nº11, Granada, 18009</div>
+      <div>
+        <a href="mailto:hola@sueñosdepan.com"
+          >Nuestro correo electrónico si quieres comunicarte con nosotros</a
+        >
+      </div>
+      <div>
+        <a href="tel:958020020">Llámanos al 958 020 020</a>
+      </div>
+      <br /><br /><br />
+      <div>
+        <iframe
+          width="425"
+          height="350"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-3.596649169921875%2C37.171033624998046%2C-3.5896110534667973%2C37.1747011072683&amp;layer=mapnik"
+          style="border: 1px solid black"
+        >
+        </iframe>
+        <br />
+        <small>
+          <a href="https://www.openstreetmap.org/#map=18/37.17287/-3.59313"
+            >Ver el mapa más grande</a
+          >
+        </small>
+      </div>
+    </section>
+  </body>
+</html>

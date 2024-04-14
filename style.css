@@ -1,0 +1,139 @@
+/* Hacer un menú de navegación en HTML*/
+header{
+    background-color: rgba(0, 0, 0, 7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    
+}
+nav{
+    float: left;
+    }
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: #eca023;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    color: #eca023;
+    vertical-align: middle;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: center;
+    margin-left: 500px;
+    margin-right: auto;
+}
+div{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+   }
+   ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   /* float: center;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    text-align: center;
+   }
+   a{
+    color: #eca023;
+   }
+   h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #eca023;
+   }
+   .alcazaba{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #eca023;
+
+   }
+  .alameda{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #eca023;
+
+   }
+   .algarrobo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #eca023;
+
+   }
+
+.pan-blanco{
+    width: 20%; 
+    /*viewport height, viewport width*/
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card{
+    width: 10%;
+    min-width: 100px;
+}
+.h2{
+    text-align: center;
+}
+
+.form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #eca023;
+
+}
+.precio{
+    color: #eca023;
+    font-weight: bold;
+
+}
+.subs{
+    text-align: center;
+   font-weight: bolder;
+}
